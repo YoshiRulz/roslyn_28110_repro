@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<AssemblyOriginatorKeyFile>Vortice.snk</AssemblyOriginatorKeyFile>
+		<SignAssembly>true</SignAssembly>
+		<TargetFramework>net8.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Shim.System.Numerics" Version="6.0.0" Aliases="bitops_polyfill" />
+	</ItemGroup>
+</Project>
